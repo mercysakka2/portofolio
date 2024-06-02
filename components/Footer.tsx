@@ -1,7 +1,7 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
+  AiOutlineInstagram,
   AiOutlineLinkedin,
   AiOutlineYoutube,
 } from "react-icons/ai"
@@ -12,7 +12,7 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Mercy Sakka<a href="/" className="hover:underline"></a>
+          © 2024 Mercy Sakka<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/mercysakka2" rel="noreferrer" target="_blank">
@@ -22,11 +22,11 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://www.instagram.com/mercysakka/"
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineTwitter
+            <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

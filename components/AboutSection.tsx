@@ -4,11 +4,12 @@ import Image from "next/image"
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
+  { skill: "SQL" },
   { skill: "JavaScript" },
-  { skill: "Photoshop" },
+  { skill: "PHP" },
   { skill: "Python" },
   { skill: "React" },
-  { skill: "Canva" },
+  { skill: "Postman" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
@@ -28,28 +29,39 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
             <p>
               {" "}
-              Hi, I am Mercy Sakka, a graduate of SMA Advent Tompaso in 2021. After completing my high school 
-              education, I immediately continued my studies at Universitas Klabat, where I am currently pursuing 
-              a Bachelors degree in the Faculty of Computer Science, majoring in Informatics. Now in my 6th 
-              semester, I am passionate about delving deeper into the world of technology.
+              I am an active student majoring in Informatics, Computer Science at Universitas Klabat. I have a 
+              strong enthusiasm for web development and have gained experience building websites during my 
+              studies using ReactJS and MySQL. Have communication skills where when I work, I work with my team 
+              so that we achieve our gooals. Time managment which while studying can set which time to study and 
+              which time to participate in organizational activities.
             </p>
             <br/>
+            <h3 className="text-center text-1xl font-bold mb-3 md:text-left">Education</h3>
             <p>
-              During my time at Universitas Klabat, I have learned a lot about informatics, from programming 
-              to data management. In addition to attending lectures, I am actively involved in various campus 
-              activities related to technology, which have helped me develop teamwork and leadership skills. These 
-              experiences have been invaluable for my personal growth and future career.
+              Universitas Klabat <span className="font-semibold text-teal-600">2021 - Present{" "}
+            </span>
+            </p>
+            <p>
+              SMA Advent Tompaso <span className="font-semibold text-teal-600">2019 - 2021{" "}
+            </span>
+            </p>
+            <p>
+              SMP Advent Tompaso <span className="font-semibold text-teal-600">2017 - 2019{" "}
+            </span>
             </p>
             <br/>
+            <h3 className="text-center text-1xl font-bold mb-3 md:text-left">Organization Experience</h3>
             <p>
-              Recently, I achieved a significant milestone by earning the Adobe Certification Professional. This 
-              certification has strengthened my skills in using professional graphic design tools, adding value 
-              to my expertise in the field of information technology. With the knowledge and skills I have acquired, 
-              I am ready to face challenges in the tech world and contribute significantly to this field.
+              Student Association <span className="font-semibold text-teal-600">February 2024 - June 2024{" "}
+            </span>
+            </p>
+            <p>
+              Voice of Computer Science <span className="font-semibold text-teal-600">September 2022 - Present{" "}
+            </span>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-6">Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
