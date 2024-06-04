@@ -38,25 +38,25 @@ const AboutSection = () => {
             <br/>
             <h3 className="text-center text-1xl font-bold mb-3 md:text-left">Education</h3>
             <p>
-              Universitas Klabat <span className="font-semibold text-teal-600">2021 - Present{" "}
+              Universitas Klabat - Manado <span className="font-semibold text-teal-600">2021 - Present{" "}
             </span>
             </p>
             <p>
-              SMA Advent Tompaso <span className="font-semibold text-teal-600">2019 - 2021{" "}
+              SMA Advent Tompaso - Tompaso <span className="font-semibold text-teal-600">2019 - 2021{" "}
             </span>
             </p>
             <p>
-              SMP Advent Tompaso <span className="font-semibold text-teal-600">2017 - 2019{" "}
+              SMP Advent Tompaso - Tompaso <span className="font-semibold text-teal-600">2017 - 2019{" "}
             </span>
             </p>
             <br/>
             <h3 className="text-center text-1xl font-bold mb-3 md:text-left">Organization Experience</h3>
             <p>
-              Student Association <span className="font-semibold text-teal-600">February 2024 - June 2024{" "}
+              UNKLAB Student Association - Airmadidi <span className="font-semibold text-teal-600">February 2024 - June 2024{" "}
             </span>
             </p>
             <p>
-              Voice of Computer Science <span className="font-semibold text-teal-600">September 2022 - Present{" "}
+              Voice of Computer Science - Airmadidi <span className="font-semibold text-teal-600">September 2022 - Present{" "}
             </span>
             </p>
           </div>

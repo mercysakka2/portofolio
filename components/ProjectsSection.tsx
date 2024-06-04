@@ -6,12 +6,11 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-      name: "Roll a Ball",
-      description:
-        "Roll a Ball is a simple game often used as an introductory project in game development using Unity. This project is frequently assigned to students in a Computer Graphics course or introductory game development class because it covers many basic concepts in game creation. Roll a Ball is a game where the player controls a ball within an arena, with the goal of collecting a number of objects (such as small cubes or coins) scattered around the area. The player moves the ball using keyboard controls or other input devices. The game ends and the player wins when all the objects are collected.",
-      image: "/rollaball.png",
-      github: "https://github.com", // Added placeholder link
-      link: "https://youtu.be/BbIuOmI4ZHs" // Added placeholder link
+    name: "UKantin",
+    description: "This desktop application is designed specifically for a single user, the admin, who functions as the cashier at the UNKLAB Canteen. The application will allow the admin to manage food and beverage sales transactions, organize inventory data, and generate financial reports. The system uses an SQL database for CRUD (Create, Read, Update, Delete) operations to ensure data is well-organized and efficiently managed. This project was created collaboratively with a group.",
+    image: "/ukantin.png",
+    github: "https://github.com/mercysakka2/app-desktop-VP.git", // Added placeholder link
+    link: "https://drive.google.com/file/d/1pFOyxD6XMN_1EwOFuSNA0NtJm6HdGhma/view?usp=sharing" // Added placeholder link
   },
   {
       name: "Application Information UK",
@@ -28,11 +27,12 @@ const projects = [
       link: "https://www.chatbot.com" // Added placeholder link
   },
   {
-    name: "UKantin",
-    description: "This desktop application is designed specifically for a single user, the admin, who functions as the cashier at the UNKLAB Canteen. The application will allow the admin to manage food and beverage sales transactions, organize inventory data, and generate financial reports. The system uses an SQL database for CRUD (Create, Read, Update, Delete) operations to ensure data is well-organized and efficiently managed. This project was created collaboratively with a group.",
-    image: "/ukantin.png",
-    github: "https://github.com/mercysakka2/app-desktop-VP.git", // Added placeholder link
-    link: "https://drive.google.com/file/d/1pFOyxD6XMN_1EwOFuSNA0NtJm6HdGhma/view?usp=sharing" // Added placeholder link
+    name: "Roll a Ball",
+    description:
+      "Roll a Ball is a simple game often used as an introductory project in game development using Unity. This project is frequently assigned to students in a Computer Graphics course or introductory game development class because it covers many basic concepts in game creation. Roll a Ball is a game where the player controls a ball within an arena, with the goal of collecting a number of objects (such as small cubes or coins) scattered around the area. The player moves the ball using keyboard controls or other input devices. The game ends and the player wins when all the objects are collected.",
+    image: "/rollaball.png",
+    github: "https://github.com", // Added placeholder link
+    link: "https://youtu.be/BbIuOmI4ZHs" // Added placeholder link
 },
 ]
 
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                    <p className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
